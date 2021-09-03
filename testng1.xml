@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="handle.excelData.ReadDataFromExcel"/>
+      <class name="com.pages.GmailLoginTest"/>
+      <class name="handle.excelData.WriteIntoExcel"/>
+      <class name="brokenlink.ToTestBrokenLink"/>
+      <class name="extentreport.LoginTest"/>
+      <class name="extent.report2.BaseTest"/>
+      <class name="handle.Exception.InvalidSelectorExceptionEx"/>
+      <class name="handle.Exception.StaleElementReferenceExceptionEx"/>
+      <class name="com.extent.report.ExtentReportDemo"/>
+      <class name="handle.Exception.TimeoutExceptionEx"/>
+      <class name="handle.iframe.FindOutTotalIframe"/>
+      <class name="handle.Exception.NoSuchElementExceptionEx"/>
+      <class name="keys.event.KeyEventEx"/>
+      <class name="robot.classEx.KeyboardFunction"/>
+      <class name="handle.Exception.NoAlertPresentException"/>
+      <class name="robot.classEx.PressEscapeKeyUsingRobot"/>
+      <class name="extent.report2.Functionality1"/>
+      <class name="extent.report2.Functionality2"/>
+      <class name="handle.Exception.NoSuchSessionExceptionEx"/>
+      <class name="handle.excelData.WriteMultipleDataInExcel"/>
+      <class name="extentreport.LoginTest1"/>
+      <class name="handle.Exception.NoSuchWindowExceptionEx"/>
+      <class name="robot.classEx.KeyBordEvent"/>
+      <class name="handle.Exception.NoSuchFrameException"/>
+      <class name="handle.Exception.ElementNotSelectableException"/>
+      <class name="handle.Exception.ElementNotVisibleExceptionEx"/>
+      <class name="testng.listener.TestCases"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
